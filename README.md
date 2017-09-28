@@ -4,12 +4,12 @@
 [![Version](https://img.shields.io/cocoapods/v/SKToggle.svg?style=flat)](http://cocoapods.org/pods/SKToggle)
 [![License](https://img.shields.io/cocoapods/l/SKToggle.svg?style=flat)](http://cocoapods.org/pods/SKToggle)
 [![Platform](https://img.shields.io/cocoapods/p/SKToggle.svg?style=flat)](http://cocoapods.org/pods/SKToggle)
-![Alt text](https://media.giphy.com/media/l378gTMDaN1dZuffy/giphy.gif "SKToggle")
+
 ## Example
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
-
+Swift 3.0 or above
 ## Installation
 
 SKToggle is available through [CocoaPods](http://cocoapods.org). To install
@@ -18,7 +18,8 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'SKToggle'
 ```
-
+## Demo 
+![Alt text](https://media.giphy.com/media/l378gTMDaN1dZuffy/giphy.gif "SKToggle")
 ## Author
 
 SandeepSpider811, sandeep.kumar811@gmail.com
