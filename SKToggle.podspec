@@ -22,7 +22,7 @@ TODO: SKToggle button enables user to toggle a button state. e.g. ON/OFF. All th
                        DESC
 
   s.homepage         = 'https://github.com/SandeepSpider811/SKToggle'
-  # s.screenshots     = 'https://media.giphy.com/media/l378gTMDaN1dZuffy/giphy.gif'
+  s.screenshots     = 'https://media.giphy.com/media/l378gTMDaN1dZuffy/giphy.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'SandeepSpider811' => 'sandeep.kumar811@gmail.com' }
   s.source           = { :git => 'https://github.com/SandeepSpider811/SKToggle.git', :tag => s.version.to_s }
