@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B40D14C40DF2D99F5E6A33E31402D6F /* Pods-SKToggle_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4E617AEDF7BEE17AC509FF75900F178 /* Pods-SKToggle_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14A35CCB8CC009E6A75D94AB2870B738 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		37198F79C27883F391467184C43522F2 /* SKToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27006459E67124D0537B6D6F854A72C /* SKToggle.swift */; };
+		48696749B14375DDA817896EF6829334 /* SKToggle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D786175CADFEBEA1344ACC12389C5B /* SKToggle-dummy.m */; };
+		6680826A047E63E97F5485CDD6F30DC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C11DA04AF57070341E4A999496A8F8BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CDAA0C584FA9AF2ED5AC350B3687C8B0 /* SKToggle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C77070A4D71740DAC0B781A4D79E4625 /* SKToggle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFD2B2AB0F2FD83121C1A86A62158BC0 /* Pods-SKToggle_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66307C9B818B21D6B6FBEEE14837EF61 /* Pods-SKToggle_Example-dummy.m */; };
+		E2881E0C87E08C976DF8AC6DC72C5F85 /* Pods-SKToggle_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D10DA89C7712A1C514638E14C0C1DE7 /* Pods-SKToggle_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF09D0078BF56B750B1C9F2DA531D668 /* Pods-SKToggle_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C204595C2F99346C93E703C8890ED564 /* Pods-SKToggle_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		592A0689DA505C7C0349DBB0BE0C9223 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 025C7BA1A3DD0B3CCB05792E10ECB6D8;
+			remoteInfo = SKToggle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		102157590F8A8F44C0CCFB8941E43AA6 /* Pods-SKToggle_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SKToggle_Tests.modulemap"; sourceTree = "<group>"; };
+		1FBC4318D7237F2279F022509BB30E43 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		217D1175B6E87FFB4224B734CF9D5DB8 /* Pods-SKToggle_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKToggle_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2422799CE5430075BD6365394065F829 /* Pods-SKToggle_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKToggle_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2B2D1D9B9773A051DB4C0675D6D54E3B /* SKToggle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SKToggle.modulemap; sourceTree = "<group>"; };
+		2CBF304D605436EFBFE7E5DA9D68C6CD /* Pods-SKToggle_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKToggle_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2D10DA89C7712A1C514638E14C0C1DE7 /* Pods-SKToggle_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SKToggle_Tests-umbrella.h"; sourceTree = "<group>"; };
+		30F3C763DDC0FD4388AACCE4B56F1BC7 /* Pods_SKToggle_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SKToggle_Example.framework; path = "Pods-SKToggle_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5122A89FD5ADE8DD419037E8692A1B71 /* SKToggle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKToggle-prefix.pch"; sourceTree = "<group>"; };
+		61437356ED35169EAF4EECE18DD69846 /* Pods-SKToggle_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKToggle_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6527BD3D756C1E439CFA8460EFDD0E8D /* Pods-SKToggle_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKToggle_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66307C9B818B21D6B6FBEEE14837EF61 /* Pods-SKToggle_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKToggle_Example-dummy.m"; sourceTree = "<group>"; };
+		686F4811D7E3CE8D37ABAF0083635C21 /* SKToggle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SKToggle.framework; path = SKToggle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FEFD0BA41105AF234411A56B7BC14FF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7396712C63C7A4F5569C9F676C9DBB31 /* Pods-SKToggle_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKToggle_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		75CE98F2AD8A9E6776F825CE0E790798 /* Pods-SKToggle_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKToggle_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		879BD3B972A9E9423C33361A63ADEFD6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96F25BC5D4A4B1ABAB12DFD52752263F /* Pods-SKToggle_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SKToggle_Example.modulemap"; sourceTree = "<group>"; };
+		9B793D40CAE0E1230012A11560EEA980 /* Pods_SKToggle_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SKToggle_Tests.framework; path = "Pods-SKToggle_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C4FB5B2AC80F6CA7AC2E6457DC9F10E /* Pods-SKToggle_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKToggle_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A10C87F7D04C2382528BDA300ACA082B /* Pods-SKToggle_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKToggle_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AC475FB63896AB192CDA3EDD877810F8 /* SKToggle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKToggle.xcconfig; sourceTree = "<group>"; };
+		B4E617AEDF7BEE17AC509FF75900F178 /* Pods-SKToggle_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SKToggle_Example-umbrella.h"; sourceTree = "<group>"; };
+		C204595C2F99346C93E703C8890ED564 /* Pods-SKToggle_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKToggle_Tests-dummy.m"; sourceTree = "<group>"; };
+		C4D786175CADFEBEA1344ACC12389C5B /* SKToggle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKToggle-dummy.m"; sourceTree = "<group>"; };
+		C77070A4D71740DAC0B781A4D79E4625 /* SKToggle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKToggle-umbrella.h"; sourceTree = "<group>"; };
+		D1CAE3AA2772592E5BE23C6DCD1C0743 /* Pods-SKToggle_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKToggle_Example-resources.sh"; sourceTree = "<group>"; };
+		E873F0F7752B62442B04F65322A90EA8 /* Pods-SKToggle_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKToggle_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EE7D427F8793730DF9D698DC64FD9D56 /* Pods-SKToggle_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKToggle_Tests-resources.sh"; sourceTree = "<group>"; };
+		F27006459E67124D0537B6D6F854A72C /* SKToggle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKToggle.swift; path = SKToggle/Classes/SKToggle.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F4CD71D9D8A593569D346DCF8327429 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11DA04AF57070341E4A999496A8F8BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		887E26A650843606220B49CC197CF37C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6680826A047E63E97F5485CDD6F30DC5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B43CB0DE333EB7515E67C1800A41391 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A35CCB8CC009E6A75D94AB2870B738 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15E3C9A66D13CC05EB971FC019402C2B /* Pods-SKToggle_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6FEFD0BA41105AF234411A56B7BC14FF /* Info.plist */,
+				102157590F8A8F44C0CCFB8941E43AA6 /* Pods-SKToggle_Tests.modulemap */,
+				6527BD3D756C1E439CFA8460EFDD0E8D /* Pods-SKToggle_Tests-acknowledgements.markdown */,
+				7396712C63C7A4F5569C9F676C9DBB31 /* Pods-SKToggle_Tests-acknowledgements.plist */,
+				C204595C2F99346C93E703C8890ED564 /* Pods-SKToggle_Tests-dummy.m */,
+				75CE98F2AD8A9E6776F825CE0E790798 /* Pods-SKToggle_Tests-frameworks.sh */,
+				EE7D427F8793730DF9D698DC64FD9D56 /* Pods-SKToggle_Tests-resources.sh */,
+				2D10DA89C7712A1C514638E14C0C1DE7 /* Pods-SKToggle_Tests-umbrella.h */,
+				A10C87F7D04C2382528BDA300ACA082B /* Pods-SKToggle_Tests.debug.xcconfig */,
+				2CBF304D605436EFBFE7E5DA9D68C6CD /* Pods-SKToggle_Tests.release.xcconfig */,
+			);
+			name = "Pods-SKToggle_Tests";
+			path = "Target Support Files/Pods-SKToggle_Tests";
+			sourceTree = "<group>";
+		};
+		1CFB8E0F964AE302574F1218CE9E294C /* SKToggle */ = {
+			isa = PBXGroup;
+			children = (
+				F27006459E67124D0537B6D6F854A72C /* SKToggle.swift */,
+				7B5CA3484ECF526E771C174BA461CA39 /* Support Files */,
+			);
+			name = SKToggle;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5232793F417604BD73F428AFFC5478B2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA454B7E30F0FF29A84B4CDBA1C7EAD0 /* Pods-SKToggle_Example */,
+				15E3C9A66D13CC05EB971FC019402C2B /* Pods-SKToggle_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		701AB4C0B9A8B98B18065589BF508FDB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CFB8E0F964AE302574F1218CE9E294C /* SKToggle */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		724A9AA4544A898983D8742A45E9605E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30F3C763DDC0FD4388AACCE4B56F1BC7 /* Pods_SKToggle_Example.framework */,
+				9B793D40CAE0E1230012A11560EEA980 /* Pods_SKToggle_Tests.framework */,
+				686F4811D7E3CE8D37ABAF0083635C21 /* SKToggle.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B5CA3484ECF526E771C174BA461CA39 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FBC4318D7237F2279F022509BB30E43 /* Info.plist */,
+				2B2D1D9B9773A051DB4C0675D6D54E3B /* SKToggle.modulemap */,
+				AC475FB63896AB192CDA3EDD877810F8 /* SKToggle.xcconfig */,
+				C4D786175CADFEBEA1344ACC12389C5B /* SKToggle-dummy.m */,
+				5122A89FD5ADE8DD419037E8692A1B71 /* SKToggle-prefix.pch */,
+				C77070A4D71740DAC0B781A4D79E4625 /* SKToggle-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SKToggle";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				701AB4C0B9A8B98B18065589BF508FDB /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				724A9AA4544A898983D8742A45E9605E /* Products */,
+				5232793F417604BD73F428AFFC5478B2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EA454B7E30F0FF29A84B4CDBA1C7EAD0 /* Pods-SKToggle_Example */ = {
+			isa = PBXGroup;
+			children = (
+				879BD3B972A9E9423C33361A63ADEFD6 /* Info.plist */,
+				96F25BC5D4A4B1ABAB12DFD52752263F /* Pods-SKToggle_Example.modulemap */,
+				61437356ED35169EAF4EECE18DD69846 /* Pods-SKToggle_Example-acknowledgements.markdown */,
+				2422799CE5430075BD6365394065F829 /* Pods-SKToggle_Example-acknowledgements.plist */,
+				66307C9B818B21D6B6FBEEE14837EF61 /* Pods-SKToggle_Example-dummy.m */,
+				9C4FB5B2AC80F6CA7AC2E6457DC9F10E /* Pods-SKToggle_Example-frameworks.sh */,
+				D1CAE3AA2772592E5BE23C6DCD1C0743 /* Pods-SKToggle_Example-resources.sh */,
+				B4E617AEDF7BEE17AC509FF75900F178 /* Pods-SKToggle_Example-umbrella.h */,
+				E873F0F7752B62442B04F65322A90EA8 /* Pods-SKToggle_Example.debug.xcconfig */,
+				217D1175B6E87FFB4224B734CF9D5DB8 /* Pods-SKToggle_Example.release.xcconfig */,
+			);
+			name = "Pods-SKToggle_Example";
+			path = "Target Support Files/Pods-SKToggle_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		10DF4245FF8559452D604AE13438F947 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2881E0C87E08C976DF8AC6DC72C5F85 /* Pods-SKToggle_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		537DFFD50732038501F87521F24510FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDAA0C584FA9AF2ED5AC350B3687C8B0 /* SKToggle-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE4073529396284A5966C29EA0AF2862 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B40D14C40DF2D99F5E6A33E31402D6F /* Pods-SKToggle_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		025C7BA1A3DD0B3CCB05792E10ECB6D8 /* SKToggle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3391C5AA79DC30EADCD495D9FCC16617 /* Build configuration list for PBXNativeTarget "SKToggle" */;
+			buildPhases = (
+				F62F36C7DB1A22CB46418597A167EE25 /* Sources */,
+				9B43CB0DE333EB7515E67C1800A41391 /* Frameworks */,
+				537DFFD50732038501F87521F24510FE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKToggle;
+			productName = SKToggle;
+			productReference = 686F4811D7E3CE8D37ABAF0083635C21 /* SKToggle.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2A3EC47AD5DA052DB588E07AE1352D23 /* Pods-SKToggle_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F56BBAE28535A489C3AE245D4A4A28C /* Build configuration list for PBXNativeTarget "Pods-SKToggle_Example" */;
+			buildPhases = (
+				9FF98226225FE4250C7415A031E30D95 /* Sources */,
+				887E26A650843606220B49CC197CF37C /* Frameworks */,
+				FE4073529396284A5966C29EA0AF2862 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8B4F48CFA77BA4F902B03FFF87D3EBB /* PBXTargetDependency */,
+			);
+			name = "Pods-SKToggle_Example";
+			productName = "Pods-SKToggle_Example";
+			productReference = 30F3C763DDC0FD4388AACCE4B56F1BC7 /* Pods_SKToggle_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B71C6FF77BAD3B1AE80DA2C148121A0F /* Pods-SKToggle_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00793648B3B94DD2E031357DF014D9AF /* Build configuration list for PBXNativeTarget "Pods-SKToggle_Tests" */;
+			buildPhases = (
+				3ADAE4056D8D7B066205DD7CEC875B8E /* Sources */,
+				4F4CD71D9D8A593569D346DCF8327429 /* Frameworks */,
+				10DF4245FF8559452D604AE13438F947 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SKToggle_Tests";
+			productName = "Pods-SKToggle_Tests";
+			productReference = 9B793D40CAE0E1230012A11560EEA980 /* Pods_SKToggle_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 724A9AA4544A898983D8742A45E9605E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A3EC47AD5DA052DB588E07AE1352D23 /* Pods-SKToggle_Example */,
+				B71C6FF77BAD3B1AE80DA2C148121A0F /* Pods-SKToggle_Tests */,
+				025C7BA1A3DD0B3CCB05792E10ECB6D8 /* SKToggle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3ADAE4056D8D7B066205DD7CEC875B8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF09D0078BF56B750B1C9F2DA531D668 /* Pods-SKToggle_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FF98226225FE4250C7415A031E30D95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD2B2AB0F2FD83121C1A86A62158BC0 /* Pods-SKToggle_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F62F36C7DB1A22CB46418597A167EE25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48696749B14375DDA817896EF6829334 /* SKToggle-dummy.m in Sources */,
+				37198F79C27883F391467184C43522F2 /* SKToggle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8B4F48CFA77BA4F902B03FFF87D3EBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SKToggle;
+			target = 025C7BA1A3DD0B3CCB05792E10ECB6D8 /* SKToggle */;
+			targetProxy = 592A0689DA505C7C0349DBB0BE0C9223 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1AE1D1EC9E4712B57CD3DF4F9425C483 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A10C87F7D04C2382528BDA300ACA082B /* Pods-SKToggle_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SKToggle_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKToggle_Tests/Pods-SKToggle_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SKToggle_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4AF9D9D4B8831563A3ABC2BEE9DC8F39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC475FB63896AB192CDA3EDD877810F8 /* SKToggle.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SKToggle/SKToggle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKToggle/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SKToggle/SKToggle.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SKToggle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		813ED605F767A5882DD2A39C6F70D344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC475FB63896AB192CDA3EDD877810F8 /* SKToggle.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SKToggle/SKToggle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKToggle/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SKToggle/SKToggle.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SKToggle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		918328DAD1228D69D15A5C6A74AE894C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E873F0F7752B62442B04F65322A90EA8 /* Pods-SKToggle_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SKToggle_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKToggle_Example/Pods-SKToggle_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SKToggle_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A2C7A58AAEE000B1248788907A926A1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 217D1175B6E87FFB4224B734CF9D5DB8 /* Pods-SKToggle_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SKToggle_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKToggle_Example/Pods-SKToggle_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SKToggle_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ABF4A0566156993A4BDD726C063DAFDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CBF304D605436EFBFE7E5DA9D68C6CD /* Pods-SKToggle_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SKToggle_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKToggle_Tests/Pods-SKToggle_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SKToggle_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00793648B3B94DD2E031357DF014D9AF /* Build configuration list for PBXNativeTarget "Pods-SKToggle_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AE1D1EC9E4712B57CD3DF4F9425C483 /* Debug */,
+				ABF4A0566156993A4BDD726C063DAFDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3391C5AA79DC30EADCD495D9FCC16617 /* Build configuration list for PBXNativeTarget "SKToggle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				813ED605F767A5882DD2A39C6F70D344 /* Debug */,
+				4AF9D9D4B8831563A3ABC2BEE9DC8F39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F56BBAE28535A489C3AE245D4A4A28C /* Build configuration list for PBXNativeTarget "Pods-SKToggle_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				918328DAD1228D69D15A5C6A74AE894C /* Debug */,
+				A2C7A58AAEE000B1248788907A926A1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

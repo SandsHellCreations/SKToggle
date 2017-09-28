@@ -1,0 +1,6 @@
+framework module Pods_SKToggle_Example {
+  umbrella header "Pods-SKToggle_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_SKToggle_Tests {
+  umbrella header "Pods-SKToggle_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

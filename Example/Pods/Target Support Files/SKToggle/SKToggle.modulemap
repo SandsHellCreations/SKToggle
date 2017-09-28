@@ -1,0 +1,6 @@
+framework module SKToggle {
+  umbrella header "SKToggle-umbrella.h"
+
+  export *
+  module * { export * }
+}
