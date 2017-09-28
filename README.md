@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/SKToggle.svg?style=flat)](http://cocoapods.org/pods/SKToggle)
 
 ## Example
-
+![Alt text](https://media.giphy.com/media/l378gTMDaN1dZuffy/giphy.gif "SKToggle")
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
