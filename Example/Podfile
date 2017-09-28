@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SKToggle_Example' do
+  pod 'SKToggle', :path => '../'
+
+  target 'SKToggle_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
